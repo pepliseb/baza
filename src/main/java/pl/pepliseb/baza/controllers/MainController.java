@@ -10,7 +10,7 @@ public class MainController {
 
     @GetMapping("/")
     @ResponseBody
-    public String index() {return "Czesc";
+    public String index() {return "Czesc!";
 
 
     }

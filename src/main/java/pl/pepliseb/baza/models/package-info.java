@@ -1,1 +1,0 @@
-package pl.pepliseb.baza.models;

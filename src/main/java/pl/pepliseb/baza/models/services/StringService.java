@@ -1,7 +1,11 @@
 package pl.pepliseb.baza.models.services;
 
+import org.springframework.stereotype.Service;
+
 import java.util.UUID;
 
+
+@Service
 public class StringService {
 
     public String generateRandomString(){

@@ -12,7 +12,7 @@ public class MainController {
     @GetMapping("/")
     @ResponseBody
     public String index() {
-        return "Czesc!" + new StringService().generateRandomString();
+        return "Czesc! " + new StringService().generateRandomString();
 
 
     }

@@ -25,7 +25,7 @@ public class ReservationModel {
 
     public ReservationModel(ReservationForm form){
     name = form.getName();
-    date = form.getFormateDate();
+    date = form.getFormatedDate();
     adres = form.getAdres();
     lastname= form.getLastname();
     }

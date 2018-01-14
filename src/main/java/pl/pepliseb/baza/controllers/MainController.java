@@ -37,14 +37,14 @@ public class MainController {
 //        model.setName("Nowak");
 //        reservationRepository.save(model);
     model.addAttribute("reservationForm", new ReservationForm());
-                return "Hej, zapisałem dane ";
+                return "index";
 
     }
 
 
     @PostMapping("/")
     public String index(@ModelAttribute("reservationForm") ReservationForm form) {
-    reservationRepository save(new ReservationModel(form))
+    reservationRepository.save(new ReservationModel(form));
         return "index";
     }
 }
